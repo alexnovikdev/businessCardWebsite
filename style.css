@@ -100,6 +100,11 @@ footer {
 aside h1 {
   font-family: Georgia, "Times New Roman", Times, serif!important;
 }
+.main-content-img img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
 @media screen and (max-width: 750px) {
   article {
     float: none;
@@ -118,15 +123,5 @@ aside h1 {
   }
   nav ul li:nth-child(4) {
     padding-right: 39px;
-  }
-  .main-content-img img {
-    width: 500px;
-    display: block;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 505px) {
-  .main-content-img img {
-    width: 300px;
   }
 }
